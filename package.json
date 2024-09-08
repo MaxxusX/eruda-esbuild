@@ -11,7 +11,7 @@
 	],
 	"scripts": {
 		"ci": "pnpm run lint && pnpm run test && pnpm run build && pnpm run es5",
-		"build": "shx rm -rf dist && webpack --config build/webpack.prod.js && webpack --config build/webpack.polyfill.js && node build/build && shx cp eruda.d.ts dist",
+		"build": "shx rm -rf dist && node build-es.mjs && shx cp eruda.d.ts dist",
 		"build:analyser": "webpack --config build/webpack.analyser.js",
 		"test": "karma start",
 		"format": "prettier . --write",
@@ -49,6 +49,7 @@
 		"core-js": "^3.38.1",
 		"css-loader": "^3.6.0",
 		"es-check": "^6.2.1",
+		"esbuild": "0.23.1",
 		"eslint": "^6.8.0",
 		"eslint-loader": "^3.0.4",
 		"jasmine-core": "^2.99.1",
