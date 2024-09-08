@@ -1,94 +1,94 @@
-import extend from 'licia/extend'
-import isArr from 'licia/isArr'
-import contain from 'licia/contain'
+import extend from "licia/extend";
+import isArr from "licia/isArr";
+import contain from "licia/contain";
 
 const keyMap = [
-  'background',
-  'foreground',
-  'selectForeground',
-  'accent',
-  'highlight',
-  'border',
-  'primary',
-  'contrast',
-  'varColor',
-  'stringColor',
-  'keywordColor',
-  'numberColor',
-  'operatorColor',
-  'linkColor',
-  'textColor',
-  'tagNameColor',
-  'functionColor',
-  'attributeNameColor',
-  'commentColor',
-]
+	"background",
+	"foreground",
+	"selectForeground",
+	"accent",
+	"highlight",
+	"border",
+	"primary",
+	"contrast",
+	"varColor",
+	"stringColor",
+	"keywordColor",
+	"numberColor",
+	"operatorColor",
+	"linkColor",
+	"textColor",
+	"tagNameColor",
+	"functionColor",
+	"attributeNameColor",
+	"commentColor",
+];
 
-const keyMapLen = keyMap.length
+const keyMapLen = keyMap.length;
 
 function arrToMap(arr) {
-  const ret = {}
+	const ret = {};
 
-  for (let i = 0; i < keyMapLen; i++) {
-    ret[keyMap[i]] = arr[i]
-  }
+	for (let i = 0; i < keyMapLen; i++) {
+		ret[keyMap[i]] = arr[i];
+	}
 
-  return ret
+	return ret;
 }
 
 function createDarkTheme(theme) {
-  if (isArr(theme)) theme = arrToMap(theme)
-  if (!theme.darkerBackground) theme.darkerBackground = theme.contrast
-  return extend(
-    {
-      consoleWarnBackground: '#332a00',
-      consoleWarnForeground: '#ffcb6b',
-      consoleWarnBorder: '#650',
-      consoleErrorBackground: '#290000',
-      consoleErrorForeground: '#ff8080',
-      consoleErrorBorder: '#5c0000',
-      light: '#ccc',
-      dark: '#aaa',
-    },
-    theme
-  )
+	if (isArr(theme)) theme = arrToMap(theme);
+	if (!theme.darkerBackground) theme.darkerBackground = theme.contrast;
+	return extend(
+		{
+			consoleWarnBackground: "#332a00",
+			consoleWarnForeground: "#ffcb6b",
+			consoleWarnBorder: "#650",
+			consoleErrorBackground: "#290000",
+			consoleErrorForeground: "#ff8080",
+			consoleErrorBorder: "#5c0000",
+			light: "#ccc",
+			dark: "#aaa",
+		},
+		theme
+	);
 }
 
 function createLightTheme(theme) {
-  if (isArr(theme)) theme = arrToMap(theme)
-  if (!theme.darkerBackground) theme.darkerBackground = theme.contrast
-  return extend(
-    {
-      consoleWarnBackground: '#fffbe5',
-      consoleWarnForeground: '#5c5c00',
-      consoleWarnBorder: '#fff5c2',
-      consoleErrorBackground: '#fff0f0',
-      consoleErrorForeground: '#f00',
-      consoleErrorBorder: '#ffd6d6',
-      light: '#fff',
-      dark: '#eee',
-    },
-    theme
-  )
+	if (isArr(theme)) theme = arrToMap(theme);
+	if (!theme.darkerBackground) theme.darkerBackground = theme.contrast;
+	return extend(
+		{
+			consoleWarnBackground: "#fffbe5",
+			consoleWarnForeground: "#5c5c00",
+			consoleWarnBorder: "#fff5c2",
+			consoleErrorBackground: "#fff0f0",
+			consoleErrorForeground: "#f00",
+			consoleErrorBorder: "#ffd6d6",
+			light: "#fff",
+			dark: "#eee",
+		},
+		theme
+	);
 }
 
 const darkThemes = [
-  'Dark',
-  'Material Oceanic',
-  'Material Darker',
-  'Material Palenight',
-  'Material Deep Ocean',
-  'Monokai Pro',
-  'Dracula',
-  'Arc Dark',
-  'Atom One Dark',
-  'Solarized Dark',
-  'Night Owl',
-  'AMOLED',
-]
+	"Dark",
+	"Material Oceanic",
+	"Material Darker",
+	"Material Palenight",
+	"Material Deep Ocean",
+	"Monokai Pro",
+	"Dracula",
+	"Arc Dark",
+	"Atom One Dark",
+	"Solarized Dark",
+	"Night Owl",
+	"AMOLED",
+];
 
 export function isDarkTheme(theme) {
-  return contain(darkThemes, theme)
+	return contain(darkThemes, theme);
 }
 
 // prettier-ignore

@@ -1,3 +1,3 @@
 export function micromark(str) {
-  return str
+	return str;
 }

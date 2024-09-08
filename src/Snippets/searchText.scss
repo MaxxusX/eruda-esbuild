@@ -1,9 +1,9 @@
-@import '../style/variable';
+@import "../style/variable";
 
 .search-highlight-block {
-  display: inline;
-  .keyword {
-    background: var(--console-warn-background);
-    color: var(--console-warn-foreground);
-  }
+	display: inline;
+	.keyword {
+		background: var(--console-warn-background);
+		color: var(--console-warn-foreground);
+	}
 }

@@ -1,12 +1,12 @@
-describe('sources', function () {
-  let tool = eruda.get('sources')
-  let $tool = $('.eruda-sources')
+describe("sources", function () {
+	let tool = eruda.get("sources");
+	let $tool = $(".eruda-sources");
 
-  beforeEach(function () {
-    eruda.show('sources')
-  })
+	beforeEach(function () {
+		eruda.show("sources");
+	});
 
-  it('raw', function () {
-    tool.set('raw', '/* test */')
-  })
-})
+	it("raw", function () {
+		tool.set("raw", "/* test */");
+	});
+});

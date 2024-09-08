@@ -1,10 +1,10 @@
-@import '../style/variable';
-@import '../style/mixin';
+@import "../style/variable";
+@import "../style/mixin";
 
 #settings {
-  @include overflow-auto(y);
+	@include overflow-auto(y);
 }
 
 .safe-area #settings {
-  @include safe-area(padding-bottom, 0px);
+	@include safe-area(padding-bottom, 0px);
 }

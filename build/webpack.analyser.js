@@ -1,8 +1,8 @@
 const BundleAnalyzerPlugin =
-  require('webpack-bundle-analyzer').BundleAnalyzerPlugin
+	require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 
-exports = require('./webpack.prod')
+exports = require("./webpack.prod");
 
-exports.plugins.push(new BundleAnalyzerPlugin())
+exports.plugins.push(new BundleAnalyzerPlugin());
 
-module.exports = exports
+module.exports = exports;
