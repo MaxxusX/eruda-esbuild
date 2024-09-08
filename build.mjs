@@ -12,5 +12,5 @@ await esbuild.build({
 	treeShaking: true,
 	sourcemap: false,
 	target: ["chrome109", "firefox115", "safari15.6", "edge126"],
-	outDir: "dist",
+	outfile: "dist/eruda.js",
 });
