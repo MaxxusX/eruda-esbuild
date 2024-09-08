@@ -14,7 +14,6 @@ module.exports = {
 		ENV: true,
 	},
 	rules: {
-		quotes: ["error", "single"],
 		"prefer-const": 2,
 	},
 };

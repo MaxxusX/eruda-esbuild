@@ -7,7 +7,7 @@ const path = require("path");
 
 process.traceDeprecation = true;
 
-const banner = pkg.name + " v" + pkg.version + " " + pkg.homepage;
+const banner = pkg.name + " v" + pkg.version;
 
 const postcssLoader = {
 	loader: "postcss-loader",
