@@ -10,7 +10,6 @@
 		"not dead"
 	],
 	"scripts": {
-		"ci": "pnpm run lint && pnpm run test && pnpm run build",
 		"build": "shx rm -rf dist && node build.mjs && shx cp eruda.d.ts dist",
 		"format": "prettier . --write",
 		"genIcon": "lsla genIcon --input src/style/icon --output src/style/icon.css --name eruda-icon && prettier src/**/*.css --write"
