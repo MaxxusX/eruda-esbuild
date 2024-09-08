@@ -1,4 +1,5 @@
 import * as esbuild from "esbuild";
+import { sassPlugin } from "esbuild-sass-plugin";
 
 await esbuild.build({
 	entryPoints: ["src/eruda.js"],
@@ -11,6 +12,7 @@ await esbuild.build({
 	minify: true,
 	treeShaking: true,
 	sourcemap: false,
-	target: ["chrome109", "firefox115", "safari15.6", "edge126"],
+	target: ["es2022", "chrome109", "firefox115", "safari15.6", "edge126"],
 	outfile: "dist/eruda.js",
+	plugins: [ sassPlugin({style: "compressed"}) ],
 });
