@@ -1,12 +1,6 @@
 # eruda esbuild
 i dont like webpack
 
-## Try it
-
-```javascript
-javascript:(()=>{let s=document.createElement("script");s.src="https://cdn.jsdelivr.net/npm/eruda";s.addEventListener("load",()=>eruda.init());document.body.append(s)})();
-```
-
 ## Features
 
 * [Console](https://eruda.liriliri.io/docs/api.html#console): Display JavaScript logs.
