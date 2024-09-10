@@ -1,1 +1,0 @@
-require("./eruda").default.init();
