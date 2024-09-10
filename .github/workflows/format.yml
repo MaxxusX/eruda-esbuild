@@ -3,9 +3,7 @@ name: Format with Prettier
 on:
   workflow_dispatch:
 
-permissions:
-  contents: write
-  actions: write
+permissions: write-all
 
 jobs:
   format:
