@@ -30,7 +30,7 @@ import extend from "licia/extend";
 import evalCss from "./lib/evalCss";
 import chobitsu from "./lib/chobitsu";
 
-export default {
+const eruda = {
 	init({
 		container,
 		tool,
@@ -320,3 +320,5 @@ export default {
 		devTools.showTool(tool[0] || "settings");
 	},
 };
+
+eruda.init();
