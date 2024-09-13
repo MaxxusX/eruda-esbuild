@@ -14,5 +14,5 @@ await esbuild.build({
 	sourcemap: false,
 	target: ["es2022", "chrome109", "firefox115", "safari15.6", "edge126"],
 	outfile: "dist/eruda.js",
-	plugins: [ sassPlugin({style: "compressed"}) ],
+	plugins: [sassPlugin({ style: "compressed" })],
 });

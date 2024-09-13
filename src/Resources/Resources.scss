@@ -57,11 +57,11 @@
 		display: flex;
 		flex-wrap: wrap;
 		padding-left: $padding;
-     		padding-top: $padding;
-     		&::after {
-       			content: '';
-       			flex-grow: 1000;
-     		}
+		padding-top: $padding;
+		&::after {
+			content: "";
+			flex-grow: 1000;
+		}
 		li {
 			flex-grow: 1;
 			cursor: pointer;
