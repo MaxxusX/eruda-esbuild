@@ -28,6 +28,10 @@
 	"bugs": {
 		"url": "https://github.com/maxxusx/eruda-esbuild/issues"
 	},
+ 	"engines": {
+   		"node": ">=20",
+		"pnpm": ">=9"
+ 	},
 	"devDependencies": {
 		"chobitsu": "^1.7.1",
 		"esbuild": "0.23.1",
