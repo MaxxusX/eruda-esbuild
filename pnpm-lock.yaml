@@ -13,8 +13,8 @@ importers:
         version: 3.3.1(esbuild@0.23.1)(sass-embedded@1.78.0)
     devDependencies:
       chobitsu:
-        specifier: ^1.7.1
-        version: 1.7.1
+        specifier: ^1.8.1
+        version: 1.8.1
       esbuild:
         specifier: 0.23.1
         version: 0.23.1
@@ -253,8 +253,8 @@ packages:
   character-entities@2.0.2:
     resolution: {integrity: sha512-shx7oQ0Awen/BRIdkjkvz54PnEEI/EjwXDSIZp86/KKdbafHh1Df/RYGBhn4hbe2+uKC9FnT5UCEdyPz3ai9hQ==}
 
-  chobitsu@1.7.1:
-    resolution: {integrity: sha512-ygQdLyJYzQpO8IHGRQwxo+KfYczKLZyTgQjkrwuK5mDYLbJJ6BgEVsK5ZDg8wJF5P/04+XM2Emtl1Mc1pns+iQ==}
+  chobitsu@1.8.1:
+    resolution: {integrity: sha512-P1/ugGiXB1SqB57qK3cIVq6kDclr79ODPODTVpvkNDStxB7VPdbl4a+fG1HLcNzwOKnmV6nCCILhvX7+bMQcgA==}
 
   chokidar@3.6.0:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
@@ -860,7 +860,7 @@ snapshots:
 
   character-entities@2.0.2: {}
 
-  chobitsu@1.7.1:
+  chobitsu@1.8.1:
     dependencies:
       axios: 0.27.2
       core-js: 3.38.1
