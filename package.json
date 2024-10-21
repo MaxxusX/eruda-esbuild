@@ -33,7 +33,7 @@
 		"pnpm": ">=9"
 	},
 	"devDependencies": {
-		"chobitsu": "^1.7.1",
+		"chobitsu": "^1.8.4",
 		"esbuild": "0.23.1",
 		"jquery": "^3.7.1",
 		"licia": "^1.41.1",
