@@ -48,7 +48,7 @@
 		"luna-tab": "^0.3.2",
 		"luna-text-viewer": "^0.2.1",
 		"prettier": "3.3.3",
-		"sass": "^1.78.0",
+		"sass": "^1.80.4",
 		"shx": "^0.3.4"
 	},
 	"dependencies": {
