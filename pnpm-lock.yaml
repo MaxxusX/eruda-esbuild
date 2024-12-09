@@ -22,8 +22,8 @@ importers:
         specifier: ^3.7.1
         version: 3.7.1
       licia:
-        specifier: ^1.41.1
-        version: 1.41.1
+        specifier: ^1.46.0
+        version: 1.46.0
       luna-box-model:
         specifier: ^1.0.0
         version: 1.0.0
@@ -400,8 +400,8 @@ packages:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
 
-  licia@1.41.1:
-    resolution: {integrity: sha512-XqObV8u1KEMdYWaNK0leRrTwhzKnLQEkhbnuUu7qGNH3zJoN7l9sfvF6PfHstSCuUOmpEP+0SBjRrk0I9uZs8g==}
+  licia@1.46.0:
+    resolution: {integrity: sha512-Zms2AjJB+KdqUKFF87J5J/w9DwXnGN/lKlbjpRgvaPf0BIQ0mOZ/2lX4E79zwNafHGMUq5RtN54FN6Af5G92cA==}
 
   luna-box-model@1.0.0:
     resolution: {integrity: sha512-SGvRf7KSXBZ/2tAF075cInpCe9BETUxv63alSN52e0dZK8fiW4voObaDhb1cUKd44iSMRF77MJ4LYbvWgMkDrg==}
@@ -866,7 +866,7 @@ snapshots:
       core-js: 3.38.1
       devtools-protocol: 0.0.1339468
       html2canvas: 1.4.1
-      licia: 1.41.1
+      licia: 1.46.0
       luna-dom-highlighter: 1.0.2
     transitivePeerDependencies:
       - debug
@@ -1020,58 +1020,58 @@ snapshots:
 
   kleur@4.1.5: {}
 
-  licia@1.41.1: {}
+  licia@1.46.0: {}
 
   luna-box-model@1.0.0:
     dependencies:
-      licia: 1.41.1
+      licia: 1.46.0
 
   luna-console@1.3.4(luna-data-grid@0.6.0)(luna-dom-viewer@1.3.0)(luna-object-viewer@0.3.1):
     dependencies:
-      licia: 1.41.1
+      licia: 1.46.0
       luna-data-grid: 0.6.0
       luna-dom-viewer: 1.3.0
       luna-object-viewer: 0.3.1
 
   luna-data-grid@0.6.0:
     dependencies:
-      licia: 1.41.1
+      licia: 1.46.0
 
   luna-dom-highlighter@1.0.2:
     dependencies:
-      licia: 1.41.1
+      licia: 1.46.0
       path2d-polyfill: 1.2.3
 
   luna-dom-viewer@1.3.0:
     dependencies:
-      licia: 1.41.1
+      licia: 1.46.0
 
   luna-modal@1.2.3:
     dependencies:
-      licia: 1.41.1
+      licia: 1.46.0
 
   luna-notification@0.3.2:
     dependencies:
-      licia: 1.41.1
+      licia: 1.46.0
 
   luna-object-viewer@0.3.1:
     dependencies:
-      licia: 1.41.1
+      licia: 1.46.0
 
   luna-setting@2.0.1:
     dependencies:
-      licia: 1.41.1
+      licia: 1.46.0
       micromark: 3.2.0
     transitivePeerDependencies:
       - supports-color
 
   luna-tab@0.3.2:
     dependencies:
-      licia: 1.41.1
+      licia: 1.46.0
 
   luna-text-viewer@0.2.1:
     dependencies:
-      licia: 1.41.1
+      licia: 1.46.0
 
   micromark-core-commonmark@1.1.0:
     dependencies:
